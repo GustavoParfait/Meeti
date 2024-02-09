@@ -1,0 +1,19 @@
+@use 'base/variables' as v;
+
+.asidebar {
+
+    &Content {
+        background-color: v.$secondary;
+        padding: 2rem;
+        text-align: center;
+    }
+
+    &Heading,
+    &Text {
+        color: v.$white;
+    }
+
+    &Label {
+        font-weight: 700;
+    }
+}

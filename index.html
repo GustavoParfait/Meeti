@@ -1,0 +1,239 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Meeti</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&family=Roboto:wght@400;700&display=swap" rel="stylesheet"> 
+    <link rel="stylesheet" href="build/css/app.css">
+</head>
+<body>
+    <header class="header container">
+        <div class="headerLogo">
+            <a href="index.html">
+                <img src="build/img/logo.avif" alt="Logo Imagen">
+            </a>
+        </div>
+
+        <nav class="navigation">
+            <a class="navigationLink navigationLinkCreate" href="#">Crear Grupo</a>
+            <a class="navigationLink" href="#">Iniciar Sesion</a>
+            <a class="navigationLink" href="#">Registrarse</a>
+        </nav>
+    </header>
+
+    <!--Start Hero section-->
+    <section class="hero">
+        <h1 class="heroText">Encuentra o Crea un grupo para compartir lo que mas te gusta</h1>
+        <a class="heroLink" href="#">Obten una Cuenta Gratis</a>
+    </section>
+    <!--End Hero section-->
+
+    <!--Start Search Section-->
+    <section class="search">
+        <h2 class="searchHeading">Busca un grupo en tu Ciudad</h2>
+        <div class="search container">
+            <form class="form">
+                <select class="formField">
+                    <option>Desarrollo</option>
+                    <option>Diseño</option>
+                    <option>Negocios</option>
+                    <option>Moda</option>
+                    <option>Ejercicio y Salud</option>
+                    <option>Fotografia</option>
+                    <option>Comida</option>
+                    <option>Diseño Interior</option>
+                    <option>Cafe</option>
+                    <option>Cine</option>
+                    <option>Libros</option>
+                    <option>Emprendimiento</option>
+                </select>
+
+                <input class="formField" type="text" placeholder="Nombre del Evento">
+                <input class="formField" type="text" placeholder="Ciudad o Pais">
+                <input class="formSubmit" type="submit" value="Buscar">
+            </form>
+        </div>
+    </section>
+    <!--End Search Section-->
+
+    <!--Start Event Section-->
+    <main class="events container">
+        <h2 class="eventsHeading">Proximos Eventos</h2>
+
+        <div class="eventsGrid">
+            <!--Start Event 1-->
+            <div class="event">
+                <a class="eventLink" href="meeti.html">
+                    <img class="eventImage" src="build/img/imagen1.avif" alt="image meeti">
+                    <!--Start content 1-->
+                    <div class="eventContent">
+                        <p class="eventDate">Juevez 30 de Septiembre del 2022</p>
+                        <h3 class="eventName">Ideas de Negocios</h3>
+                        
+                        <div class="eventAuthor">
+                            <div class="eventAuthorImage"> 
+                                <img src="build/img/perfil1.avif" alt="Imagen Perfil1">
+                            </div>
+                            <div class="eventAuthorInformation">
+                                <p class="eventAuthorText">Orgenizado Por:</p>
+                                <p class="eventAuthorName">Gustavo Parfait</p>
+                            </div>
+                        </div>
+                    </div>
+                    <!--End content 1-->
+                </a>
+            </div>
+            <!--End Event 1-->
+
+            <!--Start Event 2-->
+            <div class="event">
+                <a class="eventLink" href="meeti.html">
+                    <img class="eventImage" src="build/img/imagen2.avif" alt="image meeti">
+                    <!--Start content 2-->
+                    <div class="eventContent">
+                        <p class="eventDate">Lunes 02 de Octubre de 2022</p>
+                        <h3 class="eventName">Bitcoin y Otras Criptos</h3>
+                        
+                        <div class="eventAuthor">
+                            <div class="eventAuthorImage"> 
+                                <img src="build/img/perfil2.avif" alt="Imagen Perfil2">
+                            </div>
+                            <div class="eventAuthorInformation">
+                                <p class="eventAuthorText">Orgenizado Por:</p>
+                                <p class="eventAuthorName">Gustavo Parfait</p>
+                            </div>
+                        </div>
+                    </div>
+                    <!--End content 2-->
+                </a>
+            </div>
+            <!--End Event 2-->
+
+            <!--Start Event 3-->
+            <div class="event">
+                <a class="eventLink" href="meeti.html">
+                    <img class="eventImage" src="build/img/imagen3.avif" alt="image meeti">
+                    <!--Start content 3-->
+                    <div class="eventContent">
+                        <p class="eventDate">Miercoles 04 de Octubre de 2022</p>
+                        <h3 class="eventName">Ideas de Negocios</h3>
+                        
+                        <div class="eventAuthor">
+                            <div class="eventAuthorImage">
+                                <img src="build/img/perfil1.avif" alt="Imagen Perfil3">
+                            </div>
+                            <div class="eventAuthorInformation">
+                                <p class="eventAuthorText">Orgenizado Por:</p>
+                                <p class="eventAuthorName">Gustavo Parfait</p>
+                            </div>
+                        </div>
+                    </div>
+                    <!--End content 3-->
+                </a>
+            </div>
+            <!--End Event 3-->
+        </div>
+    </main>
+    <!--End Event Section-->
+    <!--Start Categories Section-->
+    <section class="categories">
+        <h2 class="categoriesHeading">Categorias</h2>
+
+        <ul class="categoriesGrid container">
+            
+            <li class="category">
+                <img class="categoryImage" src="build/img/categoria_1.avif" alt="Categoria Imagen 1">
+                <p class="categoryName">Desarrollo</p>
+            </li>
+
+            <li class="category">
+                <img class="categoryImage" src="build/img/categoria_2.avif" alt="Categoria Imagen 2">
+                <p class="categoryName">Diseño</p>
+            </li>
+
+            <li class="category">
+                <img class="categoryImage" src="build/img/categoria_3.avif" alt="Categoria Imagen 3">
+                <p class="categoryName">Negocios</p>
+            </li>
+
+            <li class="category">
+                <img class="categoryImage" src="build/img/categoria_4.avif" alt="Categoria Imagen 4">
+                <p class="categoryName">Moda</p>
+            </li>
+
+            <li class="category">
+                <img class="categoryImage" src="build/img/categoria_5.avif" alt="Categoria Imagen 5">
+                <p class="categoryName">Ejercicio y Salud</p>
+            </li>
+
+            <li class="category">
+                <img class="categoryImage" src="build/img/categoria_6.avif" alt="Categoria Imagen 6">
+                <p class="categoryName">Fotografia</p>
+            </li>
+
+            <li class="category">
+                <img class="categoryImage" src="build/img/categoria_7.avif" alt="Categoria Imagen 7">
+                <p class="categoryName">Comida</p>
+            </li>
+
+            <li class="category">
+                <img class="categoryImage" src="build/img/categoria_8.avif" alt="Categoria Imagen 8">
+                <p class="categoryName">Diseño</p>
+            </li>
+
+            <li class="category">
+                <img class="categoryImage" src="build/img/categoria_9.avif" alt="Categoria Imagen 9">
+                <p class="categoryName">Cafe</p>
+            </li>
+
+            <li class="category">
+                <img class="categoryImage" src="build/img/categoria_10.avif" alt="Categoria Imagen 10">
+                <p class="categoryName">Cine</p>
+            </li>
+
+            <li class="category">
+                <img class="categoryImage" src="build/img/categoria_11.avif" alt="Categoria Imagen 11">
+                <p class="categoryName">Libros</p>
+            </li>
+
+            <li class="category">
+                <img class="categoryImage" src="build/img/categoria_12.avif" alt="Categoria Imagen 12">
+                <p class="categoryName">Emprendimiento</p>
+            </li>
+        </ul>
+        
+    </section>
+    <!--End Categories Section-->
+    <!--Start Groups Section-->
+    <section class="groups">
+        <div class="groupsGrid container">
+            <div class="groupsBloque">
+                <h3 class="groupsHeading">Crea un Grupo</h3>
+                <p class="groupsText">Comparte lo que te gusta o tu pasion con los demas, crea tu propio grupo y eventos; hoy mismo sin costo</p>
+            </div>
+
+            <div class="groupsBloque">
+                <h3 class="groupsHeading">Únete a un Grupo</h3>
+                <p class="groupsText">Conoce personas con tus mismos gustos y pasiones, Únete a un grupo ya existente y asiste a proximos Eventos</p>
+            </div>
+        </div>
+    </section>
+    <!--End Groups Section-->
+    <!--Start Footer Section-->
+    <footer class="footer container">
+        <nav class="navigation">
+            <a class="navigationLink navigationLinkCreate" href="#">Crear Grupo</a>
+            <a class="navigationLink" href="#">Iniciar Sesion</a>
+            <a class="navigationLink" href="#">Registrarse</a>
+        </nav>
+
+        <p class="footerCopyright">Todos los derechos reservados - by Gustavo Parfait</p>
+    </footer>
+    <!--End Footer Section-->
+
+</body>
+</html>
